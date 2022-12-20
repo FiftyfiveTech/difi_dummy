@@ -45,7 +45,13 @@ To run script / issue token (when user have stack some `mDai`)
 truffle exec scripts/issue-token.js
 ```
 
-# Project structure
+# Project Architecture and Structure
+
+### Architecture
+
+![image](https://user-images.githubusercontent.com/95676326/208651850-15ecc661-ee74-4f07-82e9-56d49468fe41.png)
+
+### Structure
 
 ```
 ├───migrations/
