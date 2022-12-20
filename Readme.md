@@ -4,12 +4,39 @@
 
 This is a stacking difi application which helps user to stack `mDai` token and earn `Dapp` token when issued based on there stacking.
 
-# Prerequisite
-You should have following installed on your system:
-- `Node`
-- `Ganche`
-- `Truffle`
-- `Metamask`
+✨ This repository showing that how we are using clean code architecture, folder structure, and component reusability.✨
+
+We at Fiftyfive Technologies follow the practices defined by SOLID principles and Clean Architecture.
+
+## Features
+
+- _**Functionality**_  : Work correctly, efficiently, and robustly.
+- _**Readability**_    : The primary audience for our code is other developers.
+- _**Extensibility**_  : Well-designed code should be extensible as a building block for solving new problems.
+- _**Scalability**_    : The code that can scale along with the need of your business.
+
+## Tech Stack
+
+- [NodeJS](https://nodejs.org/en/) - JS runtime environment
+- [Truffle Suite](https://trufflesuite.com/) - Web3 development framework on top of node.
+- [Ganache](https://trufflesuite.com/ganache/) - For local web3 environment to maintain dev/testing blockchain. 
+- [Metamask](https://metamask.io/) - For decentralised crypto wallet.
+- [Solidity](https://soliditylang.org/) - To generate smart contracts.
+- [React](https://reactjs.org/) - To create a supporting frontend
+- [Chai](https://www.chaijs.com/) - JS based testing framework.
+
+## Package manager - npm
+
+This project is using `npm` as package manager, if you do not have this installed on your machine please start by looking at the [npm docuentation and tutorials](https://docs.npmjs.com/). After installing the package manager the following commands will be availible for you:
+- `npm install` - Installing dev dependencies.
+- `npm run start:local` - To start the sever.
+
+If you seem to still have issues with these commands, try running `npm cache clean` and do `npm install` or `npm install --legacy-peer-deps`
+
+## Linting
+
+Project is using ESLint to make sure that we keep same coding style in the project. Currently the project is using default ruleset, but custom can be defined in `.eslintrc.json`.
+
 
 # How to use this package
 
@@ -101,6 +128,9 @@ truffle exec scripts/issue-token.js
 
 **scripts** - It it scripts of command that issue valued token to user based on there stacking mDai amount.
 
-## Author
+## License
 
 Fiftyfive Technologies
+
+**We are relentlessly focusing on digital transformation. Dive deep into the customer cases to know more about the project which we delivered.**
+
