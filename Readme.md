@@ -2,25 +2,25 @@
 
 # Difi Dummy Sample
 
-This is a stacking difi application which help user to stack mDai token and earn Dapp token when issued based on there stacking.
+This is a stacking difi application which helps user to stack `mDai` token and earn `Dapp` token when issued based on there stacking.
 
 # Prerequisite
-- You should following installed on your system:
-    - `Node`
-    - `Ganche`
-    - `Truffle`
-    - `Metamask`
+You should have following installed on your system:
+- `Node`
+- `Ganche`
+- `Truffle`
+- `Metamask`
 
 # How to use this package
 
-To use this package and fetch a template of your choosing, enter this simple command on your `Terminal` or `GitBash` or any other tool that can run `npm` commands.
+To use this package, enter this simple command on your `Terminal` or any other tool that can run `npm` commands.
 
-To get package
+To install package dependencies
 ```sh
 npm install
 ```
 
-To compile
+To compile the project
 ```sh
 truffle compile
 ```
@@ -94,12 +94,6 @@ truffle exec scripts/issue-token.js
 **test** - Using `chai` as testing framework for writing test cases and run test suit for the contract that are generated in `src/contracts` directory with help of abis on the respective contracts.
 
 **scripts** - It it scripts of command that issue valued token to user based on there stacking mDai amount.
-
-## Contribute
-
-* Fork repository. ✌️
-* Add your feature 😎 or fix a 🐛.
-* Raise a pull request. 🤓
 
 ## Author
 
